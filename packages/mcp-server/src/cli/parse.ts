@@ -96,9 +96,9 @@ export function merge(cli: CliArgs, env: EnvArgs): MergedArgs {
     host: cli.host ?? env.host,
     mcpUrl: cli.mcpUrl ?? env.mcpUrl,
     sentryDsn: cli.sentryDsn ?? env.sentryDsn,
-    openaiBaseUrl: cli.openaiBaseUrl,
+    openaiBaseUrl: cli.openaiBaseUrl ?? env.openaiBaseUrl,
     openaiModel: cli.openaiModel ?? env.openaiModel,
-    anthropicBaseUrl: cli.anthropicBaseUrl,
+    anthropicBaseUrl: cli.anthropicBaseUrl ?? env.anthropicBaseUrl,
     anthropicModel: cli.anthropicModel ?? env.anthropicModel,
     agentProvider: cli.agentProvider ?? env.agentProvider,
     // Skills precedence: CLI skills override env

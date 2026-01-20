@@ -32,7 +32,9 @@ All skills: ${allSkills.join(", ")}
 
 Environment variables:
   SENTRY_ACCESS_TOKEN     Sentry auth token (alternative to --access-token)
+  OPENAI_BASE_URL         OpenAI API base URL (alternative to --openai-base-url)
   OPENAI_API_KEY          OpenAI API key for AI-powered search tools
+  ANTHROPIC_BASE_URL      Anthropic API base URL (alternative to --anthropic-base-url)
   ANTHROPIC_API_KEY       Anthropic API key for AI-powered search tools
   EMBEDDED_AGENT_PROVIDER Provider override: openai or anthropic
 

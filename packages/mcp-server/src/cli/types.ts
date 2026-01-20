@@ -26,7 +26,9 @@ export type EnvArgs = {
   url?: string; // raw URL if provided (SENTRY_URL)
   mcpUrl?: string;
   sentryDsn?: string;
+  openaiBaseUrl?: string;
   openaiModel?: string;
+  anthropicBaseUrl?: string;
   anthropicModel?: string;
   agentProvider?: string;
   skills?: string;
