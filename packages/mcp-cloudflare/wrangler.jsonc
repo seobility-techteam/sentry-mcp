@@ -4,7 +4,7 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sentry-mcp",
+  "name": "seobility-sentry-mcp",
   "main": "./src/server/index.ts",
   "compatibility_date": "2025-03-21",
   "compatibility_flags": [
